@@ -77,18 +77,34 @@
   #slide-4 .point { font-size: 2.3rem; color: #3d2914; margin-top: 8px; }
   #slide-4 .highlight { color: #c0392b; font-weight: bold; }
 
-  /* Page 5: Kangaroo */
+  /* Page 5: Kangaroo (strong legs + hop fast) */
   #slide-5 { background: linear-gradient(135deg, #ffd194 0%, #d1913c 100%); }
-  #slide-5 .photo {
-    width: 400px; height: 320px;
-    border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    object-fit: cover;
-    margin-bottom: 30px;
+  #slide-5 .two-photos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 22px;
   }
-  #slide-5 h1 { font-size: 4.2rem; color: #5c2c00; margin-bottom: 10px; }
-  #slide-5 .point { font-size: 2.6rem; color: #4a2400; margin-top: 10px; }
+  #slide-5 .photo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  #slide-5 .photo {
+    width: 340px; height: 250px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  #slide-5 .caption {
+    font-size: 1.2rem; color: #5c2c00;
+    font-weight: bold; font-style: italic;
+  }
+  #slide-5 h1 { font-size: 4rem; color: #5c2c00; margin-top: 5px; line-height: 1.2; }
+  #slide-5 .point { font-size: 2.3rem; color: #4a2400; margin-top: 6px; }
   #slide-5 .highlight { color: #c0392b; font-weight: bold; }
-  #slide-5 .fast-fast-fast { font-size: 3rem; color: #c0392b; font-weight: bold; margin-top: 18px; }
+  #slide-5 .fast-fast-fast { font-size: 2.6rem; color: #c0392b; font-weight: bold; margin-top: 8px; }
 
   /* Page 6: Giraffe (toy + real on one slide) */
   #slide-6 { background: linear-gradient(135deg, #f6d365 0%, #b5da6c 100%); }
@@ -208,13 +224,22 @@
   <div class="point"><span class="highlight">Long trunk</span> · <span class="highlight">Splash &amp; Eat!</span></div>
 </section>
 
-<!-- Page 5: Kangaroo -->
+<!-- Page 5: Kangaroo (strong legs + hop fast) -->
 <section class="slide" id="slide-5">
   <div class="slide-num">5 / 8</div>
-  <img class="photo" src="images/kangaroo.jpg" alt="Kangaroo">
+  <div class="two-photos">
+    <div class="photo-wrap">
+      <img class="photo" src="images/kangaroo_legs.jpg" alt="Kangaroo with strong legs">
+      <div class="caption">strong legs</div>
+    </div>
+    <div class="photo-wrap">
+      <img class="photo" src="images/kangaroo_hop.jpg" alt="Kangaroo hopping fast">
+      <div class="caption">hop fast! 💨</div>
+    </div>
+  </div>
   <h1><span class="highlight">Kangaroo</span></h1>
   <div class="point"><span class="highlight">Strong legs</span></div>
-  <div class="fast-fast-fast">Hop fast, fast, fast! 💨</div>
+  <div class="fast-fast-fast">Hop fast, fast, fast!</div>
 </section>
 
 <!-- Page 6: Giraffe (toy + real on one slide) -->
