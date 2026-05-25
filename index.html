@@ -48,7 +48,7 @@
   #slide-3 .point { font-size: 2.2rem; color: #5c3317; margin: 10px 0; }
   #slide-3 .highlight { color: #d35400; font-weight: bold; }
 
-  /* Page 4: Elephant (real) */
+  /* Page 4: Elephant (real - spraying water) */
   #slide-4 { background: linear-gradient(135deg, #e6d3a3 0%, #c2a878 100%); }
   #slide-4 .top-row { display: flex; align-items: center; gap: 50px; margin-bottom: 30px; }
   #slide-4 .emoji-big { font-size: 13rem; }
@@ -67,13 +67,34 @@
   #slide-5 .highlight { color: #c0392b; font-weight: bold; }
   #slide-5 .fast-fast-fast { font-size: 2.8rem; color: #c0392b; font-weight: bold; margin-top: 20px; }
 
-  /* Page 6: Giraffe */
+  /* Page 6: Giraffe (toy + real on one slide) */
   #slide-6 { background: linear-gradient(135deg, #f6d365 0%, #b5da6c 100%); }
-  #slide-6 .top-row { display: flex; align-items: center; gap: 50px; margin-bottom: 30px; }
-  #slide-6 .emoji-big { font-size: 13rem; }
-  #slide-6 .photo { width: 340px; height: 260px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; }
-  #slide-6 h1 { font-size: 3.5rem; color: #5d4a14; margin-bottom: 20px; }
-  #slide-6 .point { font-size: 2rem; color: #3d3010; margin: 10px 0; }
+  #slide-6 .two-photos {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  #slide-6 .photo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  #slide-6 .photo {
+    width: 280px; height: 220px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  #slide-6 .caption {
+    font-size: 1.15rem;
+    color: #5d4a14;
+    font-weight: bold;
+  }
+  #slide-6 .emoji-mid { font-size: 6rem; }
+  #slide-6 h1 { font-size: 3.3rem; color: #5d4a14; margin-bottom: 15px; }
+  #slide-6 .point { font-size: 1.85rem; color: #3d3010; margin: 8px 0; }
   #slide-6 .highlight { color: #c0392b; font-weight: bold; }
 
   /* Page 7: Comparison */
@@ -152,15 +173,15 @@
   <div class="point">He has a <span class="highlight">long trunk</span>. 🐘</div>
 </section>
 
-<!-- Page 4: Elephant (real) -->
+<!-- Page 4: Elephant (real - spraying water) -->
 <section class="slide" id="slide-4">
   <div class="slide-num">4 / 8</div>
   <div class="top-row">
     <div class="emoji-big">🐘</div>
-    <img class="photo" src="images/elephant.jpg" alt="Real elephant">
+    <img class="photo" src="images/elephant.jpg" alt="Real elephant splashing water with trunk">
   </div>
   <h1>Real elephants have a <span class="highlight">long trunk</span>, too!</h1>
-  <div class="point">They use their trunk to <span class="highlight">drink water</span> and <span class="highlight">pick up food</span>. 💧🍎</div>
+  <div class="point">Look! He <span class="highlight">splashes water</span> with his trunk! 💧</div>
 </section>
 
 <!-- Page 5: Kangaroo -->
@@ -175,16 +196,23 @@
   <div class="fast-fast-fast">She hops fast, fast, fast! 💨</div>
 </section>
 
-<!-- Page 6: Giraffe -->
+<!-- Page 6: Giraffe (toy + real on one slide) -->
 <section class="slide" id="slide-6">
   <div class="slide-num">6 / 8</div>
-  <div class="top-row">
-    <div class="emoji-big">🦒</div>
-    <img class="photo" src="images/giraffe.jpg" alt="Giraffe">
+  <div class="two-photos">
+    <div class="photo-wrap">
+      <img class="photo" src="images/giraffe_toy.png" alt="My giraffe toy">
+      <div class="caption">my toy</div>
+    </div>
+    <div class="emoji-mid">🦒</div>
+    <div class="photo-wrap">
+      <img class="photo" src="images/giraffe_real.png" alt="Real giraffe at the zoo">
+      <div class="caption">at the zoo</div>
+    </div>
   </div>
-  <h1>This is a <span class="highlight">Giraffe</span>.</h1>
+  <h1>This is a <span class="highlight">Giraffe</span>!</h1>
   <div class="point">She has a very <span class="highlight">long neck</span>.</div>
-  <div class="point">Her long neck helps her eat leaves from <span class="highlight">tall trees</span>. 🌳</div>
+  <div class="point">It helps her eat leaves from <span class="highlight">tall trees</span>. 🌳</div>
 </section>
 
 <!-- Page 7: Comparison -->
@@ -196,7 +224,7 @@
       <div class="emoji">🐘</div>
       <div class="name">Elephant</div>
       <div class="body-part">Long trunk</div>
-      <div class="helps">→ Drink &amp;<br>pick up food!</div>
+      <div class="helps">→ Splash water &amp;<br>pick up food!</div>
     </div>
     <div class="card">
       <div class="emoji">🦘</div>
