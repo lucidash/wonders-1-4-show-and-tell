@@ -49,16 +49,32 @@
   #slide-3 h1 { font-size: 4.5rem; color: #8b4513; margin-top: 10px; }
   #slide-3 .highlight { color: #d35400; font-weight: bold; }
 
-  /* Page 4: Elephant (real - spraying water) */
+  /* Page 4: Elephant (real - splash water + eat food) */
   #slide-4 { background: linear-gradient(135deg, #e6d3a3 0%, #c2a878 100%); }
-  #slide-4 .photo {
-    width: 460px; height: 320px;
-    border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    object-fit: cover;
-    margin-bottom: 30px;
+  #slide-4 .two-photos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 22px;
   }
-  #slide-4 .label { font-size: 1.4rem; color: #4a3520; margin-bottom: 10px; font-style: italic; }
-  #slide-4 h1 { font-size: 4rem; color: #4a3520; margin-top: 10px; line-height: 1.2; }
+  #slide-4 .photo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  #slide-4 .photo {
+    width: 340px; height: 250px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  #slide-4 .caption {
+    font-size: 1.2rem; color: #4a3520;
+    font-weight: bold; font-style: italic;
+  }
+  #slide-4 h1 { font-size: 4rem; color: #4a3520; margin-top: 5px; line-height: 1.2; }
+  #slide-4 .point { font-size: 2.3rem; color: #3d2914; margin-top: 8px; }
   #slide-4 .highlight { color: #c0392b; font-weight: bold; }
 
   /* Page 5: Kangaroo */
@@ -175,12 +191,21 @@
   <h1><span class="highlight">Long trunk</span></h1>
 </section>
 
-<!-- Page 4: Elephant (real - spraying water) -->
+<!-- Page 4: Elephant (real - splash water + eat food) -->
 <section class="slide" id="slide-4">
   <div class="slide-num">4 / 8</div>
-  <img class="photo" src="images/elephant.jpg" alt="Real elephant splashing water with trunk">
-  <div class="label">real elephant</div>
-  <h1><span class="highlight">Splash water!</span> 💧</h1>
+  <div class="two-photos">
+    <div class="photo-wrap">
+      <img class="photo" src="images/elephant.jpg" alt="Elephant splashing water with trunk">
+      <div class="caption">splash water 💧</div>
+    </div>
+    <div class="photo-wrap">
+      <img class="photo" src="images/elephant_eating.jpg" alt="Elephant eating grass with trunk">
+      <div class="caption">eat food 🌿</div>
+    </div>
+  </div>
+  <h1>Real <span class="highlight">Elephant</span></h1>
+  <div class="point"><span class="highlight">Long trunk</span> · <span class="highlight">Splash &amp; Eat!</span></div>
 </section>
 
 <!-- Page 5: Kangaroo -->
