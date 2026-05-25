@@ -3,7 +3,7 @@
 McGraw-Hill **Wonders Grade 1, Unit 4, Week 1**의 Essential Question  
 **"How do animals' bodies help them?"** 에 맞춰 제작된 영어 유치원생용 Show & Tell 프레젠테이션입니다.
 
-본문 *"Snail and Frog Race"* 의 표현을 그대로 녹여 만들었기 때문에, 영유 수업에서 배운 표현을 발표에 자연스럽게 활용할 수 있습니다.
+본문 *"Snail and Frog Race"* 의 핵심 표현 (`hop`, `fast, fast, fast`) 을 캥거루 페이지에 그대로 녹였기 때문에, 영유 수업에서 배운 표현을 발표에 자연스럽게 활용할 수 있습니다.
 
 ## 🎯 대상
 
@@ -18,7 +18,7 @@ McGraw-Hill **Wonders Grade 1, Unit 4, Week 1**의 Essential Question
 | `index.html` | 8페이지 슬라이드 프레젠테이션 (발표 화면) |
 | `script.html` | 발표 스크립트 (영어 + 한국어 + 동작 가이드) |
 | `cards.html` | 큐 카드 8장 (인쇄해서 손에 들고 보는 키포인트) |
-| `images/` | Wikimedia Commons 사진 (snail, frog, fish) |
+| `images/` | 종이 공작 코끼리(사용자 제작) + Wikimedia Commons 사진 (elephant, kangaroo, giraffe) |
 
 ## 🎬 슬라이드 구성 (8장)
 
@@ -26,12 +26,14 @@ McGraw-Hill **Wonders Grade 1, Unit 4, Week 1**의 Essential Question
 |---|---|---|
 | 1 | Title | How Do Animals' Bodies Help Them? |
 | 2 | Hello | 자기소개 + 주제 안내 |
-| 3 | 🐌 Snail | sticky body → **slide** |
-| 4 | 🐸 Frog | strong legs → **fast, fast, fast!** |
-| 5 | 🐠 Fish | fins & gills → **swim in a school** |
-| 6 | Comparison | 3 동물 한눈에 비교 |
-| 7 | Conclusion | Essential Question 답변 |
+| 3 | 🐘 Elephant (종이공작) | "Look! I made this elephant!" — 도입 |
+| 4 | 🐘 Elephant (실제) | long trunk → **drink water & pick up food** |
+| 5 | 🦘 Kangaroo | strong legs → **hops fast, fast, fast!** |
+| 6 | 🦒 Giraffe | long neck → **eat leaves from tall trees** |
+| 7 | Comparison | 3 동물 한눈에 비교 + 결론 |
 | 8 | Thank You | 마무리 + Q&A |
+
+발표 시간 2~3분, 페이지당 1~2 문장 분량.
 
 ## 🎹 사용 방법
 
@@ -67,35 +69,35 @@ open cards.html
 
 ## 🔑 책 본문 표현 활용 포인트
 
-발표 스크립트에 *Snail and Frog Race* 본문의 핵심 표현을 그대로 녹였습니다:
+발표 스크립트 (캥거루 페이지) 에 *Snail and Frog Race* 본문의 핵심 표현을 그대로 녹였습니다:
 
-| 표현 | 출처 |
-|---|---|
-| `sticky body` | 본문 "He used his special **sticky body** to slide past the gate." |
-| `slide past the gate` | 본문 핵심 장면 |
-| `fast, fast, fast` | 본문 "He hopped **fast, fast, fast**!" |
-| `hop` | 본문 핵심 동사 |
+| 표현 | 출처 | 활용 위치 |
+|---|---|---|
+| `hop` | 본문 "He **hopped** fast, fast, fast!" (Frog) | Kangaroo 슬라이드 |
+| `fast, fast, fast` | 본문 표현 그대로 | Kangaroo 슬라이드 |
 
-→ 영유 수업에서 배운 그대로의 표현이라 **아이가 자신 있게 발표** 할 수 있고, 선생님께도 *"책을 잘 이해했다"* 는 신호를 줄 수 있습니다.
+→ 영유 수업에서 배운 그대로의 표현을 캥거루의 점프 묘사에 사용하면 **아이가 자신 있게 발표** 할 수 있고, 선생님께도 *"책을 잘 이해했다"* 는 신호를 줄 수 있습니다.
+
+또한 worksheet 선택지에 등장하는 **Giraffe** 를 본격적으로 다루기 때문에, 책에서 본 어휘를 발표에 활용하는 효과도 있습니다.
 
 ## 🖼 이미지 출처
 
-모든 이미지는 Wikimedia Commons의 자유 이용 가능 사진입니다.
-
-- Snail — [File:Snail.JPG](https://commons.wikimedia.org/wiki/File:Snail.JPG)
-- Frog — [File:Atelopus_zeteki1.jpg](https://commons.wikimedia.org/wiki/File:Atelopus_zeteki1.jpg) (Panama Golden Frog)
-- Fish — [File:Moofushi_Kandu_fish.jpg](https://commons.wikimedia.org/wiki/File:Moofushi_Kandu_fish.jpg) (school of fish)
+- **Elephant (종이 공작)** — 사용자가 직접 만든 종이 공작품 사진
+- **Elephant (실제)** — [File:African_Bush_Elephant.jpg](https://commons.wikimedia.org/wiki/File:African_Bush_Elephant.jpg) (Wikimedia Commons)
+- **Kangaroo** — [File:Kangaroo_and_joey03.jpg](https://commons.wikimedia.org/wiki/File:Kangaroo_and_joey03.jpg) (Wikimedia Commons, 어미 + joey)
+- **Giraffe** — [File:Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG](https://commons.wikimedia.org/wiki/File:Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG) (Wikimedia Commons)
 
 ## 📚 참고 자료
 
 - McGraw-Hill Wonders Grade 1, Unit 4, Week 1: **"Snail and Frog Race"**
 - Essential Question: *How do animals' bodies help them?*
-- 관련 본문 표현: sticky body, slide, hop, fast fast fast, gate, school of fish
+- 본문 핵심 표현: hop, fast, fast, fast, gate, sticky body, slide
+- Worksheet 선택지에 등장: Snail, Frog, **Giraffe**
 
 ## 🛠 커스터마이즈
 
 다른 동물이나 다른 표현을 사용하고 싶을 때:
-- `index.html` 의 슬라이드 3~5 (Snail/Frog/Fish 페이지) 수정
+- `index.html` 의 슬라이드 3~6 (Elephant ×2 / Kangaroo / Giraffe 페이지) 수정
 - `images/` 의 이미지 교체
 - `script.html` 의 영어/한국어 문장 수정
 - `cards.html` 의 키포인트 수정
@@ -105,7 +107,7 @@ CSS는 각 슬라이드마다 별도 그라데이션 배경과 색상이 적용�
 ## 📄 라이선스
 
 - 코드: 자유롭게 사용/수정 가능 (개인·비상업적 목적)
-- 이미지: Wikimedia Commons 라이선스 준수
+- 이미지: Wikimedia Commons 라이선스 준수 (종이 공작 사진은 사용자 소유)
 - 본문 표현 인용: McGraw-Hill Wonders 교과서 (교육 목적 fair use)
 
 ---
