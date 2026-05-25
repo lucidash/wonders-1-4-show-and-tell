@@ -33,24 +33,48 @@
   #slide-1 .emojis { font-size: 8rem; letter-spacing: 30px; margin: 30px 0; }
   #slide-1 .sub { font-size: 2rem; color: #8b4513; }
 
-  /* Page 2: Hello */
-  #slide-2 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
-  #slide-2 h1 { font-size: 5.5rem; color: #2c3e50; }
-
-  /* Page 3: Elephant (paper craft) */
-  #slide-3 { background: linear-gradient(135deg, #fef6e4 0%, #f3d2c1 100%); }
-  #slide-3 .photo {
+  /* Page 2: Elephant (paper craft) */
+  #slide-2 { background: linear-gradient(135deg, #fef6e4 0%, #f3d2c1 100%); }
+  #slide-2 .photo {
     width: 560px; height: 420px;
     border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     object-fit: cover;
     margin-bottom: 30px;
   }
-  #slide-3 .label { font-size: 1.4rem; color: #8b4513; margin-bottom: 10px; font-style: italic; }
-  #slide-3 h1 { font-size: 4.5rem; color: #8b4513; margin-top: 10px; }
-  #slide-3 .highlight { color: #d35400; font-weight: bold; }
+  #slide-2 .label { font-size: 1.4rem; color: #8b4513; margin-bottom: 10px; font-style: italic; }
+  #slide-2 h1 { font-size: 4.5rem; color: #8b4513; margin-top: 10px; }
+  #slide-2 .highlight { color: #d35400; font-weight: bold; }
 
-  /* Page 4: Elephant (real - splash water + eat food) */
-  #slide-4 { background: linear-gradient(135deg, #e6d3a3 0%, #c2a878 100%); }
+  /* Page 3: Elephant (real - splash water + eat food) */
+  #slide-3 { background: linear-gradient(135deg, #e6d3a3 0%, #c2a878 100%); }
+  #slide-3 .two-photos {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  #slide-3 .photo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  #slide-3 .photo {
+    width: 440px; height: 320px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  #slide-3 .caption {
+    font-size: 1.2rem; color: #4a3520;
+    font-weight: bold; font-style: italic;
+  }
+  #slide-3 h1 { font-size: 4rem; color: #4a3520; margin-top: 5px; line-height: 1.2; }
+  #slide-3 .point { font-size: 2.3rem; color: #3d2914; margin-top: 8px; }
+  #slide-3 .highlight { color: #c0392b; font-weight: bold; }
+
+  /* Page 4: Kangaroo (strong legs + hop fast) */
+  #slide-4 { background: linear-gradient(135deg, #ffd194 0%, #d1913c 100%); }
   #slide-4 .two-photos {
     display: flex;
     gap: 40px;
@@ -70,20 +94,21 @@
     object-fit: cover;
   }
   #slide-4 .caption {
-    font-size: 1.2rem; color: #4a3520;
+    font-size: 1.2rem; color: #5c2c00;
     font-weight: bold; font-style: italic;
   }
-  #slide-4 h1 { font-size: 4rem; color: #4a3520; margin-top: 5px; line-height: 1.2; }
-  #slide-4 .point { font-size: 2.3rem; color: #3d2914; margin-top: 8px; }
+  #slide-4 h1 { font-size: 4rem; color: #5c2c00; margin-top: 5px; line-height: 1.2; }
+  #slide-4 .point { font-size: 2.3rem; color: #4a2400; margin-top: 6px; }
   #slide-4 .highlight { color: #c0392b; font-weight: bold; }
+  #slide-4 .fast-fast-fast { font-size: 2.6rem; color: #c0392b; font-weight: bold; margin-top: 8px; }
 
-  /* Page 5: Kangaroo (strong legs + hop fast) */
-  #slide-5 { background: linear-gradient(135deg, #ffd194 0%, #d1913c 100%); }
+  /* Page 5: Giraffe (toy + real on one slide) */
+  #slide-5 { background: linear-gradient(135deg, #f6d365 0%, #b5da6c 100%); }
   #slide-5 .two-photos {
     display: flex;
     gap: 40px;
     align-items: center;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
   }
   #slide-5 .photo-wrap {
     display: flex;
@@ -92,71 +117,41 @@
     gap: 8px;
   }
   #slide-5 .photo {
-    width: 440px; height: 320px;
-    border-radius: 18px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-    object-fit: cover;
-  }
-  #slide-5 .caption {
-    font-size: 1.2rem; color: #5c2c00;
-    font-weight: bold; font-style: italic;
-  }
-  #slide-5 h1 { font-size: 4rem; color: #5c2c00; margin-top: 5px; line-height: 1.2; }
-  #slide-5 .point { font-size: 2.3rem; color: #4a2400; margin-top: 6px; }
-  #slide-5 .highlight { color: #c0392b; font-weight: bold; }
-  #slide-5 .fast-fast-fast { font-size: 2.6rem; color: #c0392b; font-weight: bold; margin-top: 8px; }
-
-  /* Page 6: Giraffe (toy + real on one slide) */
-  #slide-6 { background: linear-gradient(135deg, #f6d365 0%, #b5da6c 100%); }
-  #slide-6 .two-photos {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    margin-bottom: 25px;
-  }
-  #slide-6 .photo-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-  }
-  #slide-6 .photo {
     width: 360px; height: 380px;
     border-radius: 18px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.2);
     object-fit: contain;
     background: white;
   }
-  #slide-6 .caption {
+  #slide-5 .caption {
     font-size: 1.2rem;
     color: #5d4a14;
     font-weight: bold;
     font-style: italic;
   }
-  #slide-6 h1 { font-size: 4.2rem; color: #5d4a14; margin-top: 5px; }
-  #slide-6 .point { font-size: 2.4rem; color: #3d3010; margin-top: 8px; }
-  #slide-6 .highlight { color: #c0392b; font-weight: bold; }
+  #slide-5 h1 { font-size: 4.2rem; color: #5d4a14; margin-top: 5px; }
+  #slide-5 .point { font-size: 2.4rem; color: #3d3010; margin-top: 8px; }
+  #slide-5 .highlight { color: #c0392b; font-weight: bold; }
 
-  /* Page 7: Comparison */
-  #slide-7 { background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); }
-  #slide-7 h1 { font-size: 3.3rem; color: #2c3e50; margin-bottom: 40px; }
-  #slide-7 .compare { display: flex; gap: 40px; justify-content: center; align-items: stretch; }
-  #slide-7 .card {
+  /* Page 6: Comparison */
+  #slide-6 { background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); }
+  #slide-6 h1 { font-size: 3.3rem; color: #2c3e50; margin-bottom: 40px; }
+  #slide-6 .compare { display: flex; gap: 40px; justify-content: center; align-items: stretch; }
+  #slide-6 .card {
     background: white; border-radius: 30px; padding: 30px 25px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     width: 270px;
     display: flex; flex-direction: column; align-items: center;
   }
-  #slide-7 .card .emoji { font-size: 5.5rem; margin-bottom: 15px; }
-  #slide-7 .card .name { font-size: 1.9rem; font-weight: bold; color: #2c3e50; margin-bottom: 10px; }
-  #slide-7 .card .body-part { font-size: 1.4rem; color: #7f8c8d; margin: 5px 0; }
-  #slide-7 .card .helps { font-size: 1.4rem; color: #e74c3c; font-weight: bold; margin-top: 10px; line-height: 1.4; }
-  #slide-7 .footer { font-size: 1.8rem; color: #6c3000; margin-top: 40px; }
+  #slide-6 .card .emoji { font-size: 5.5rem; margin-bottom: 15px; }
+  #slide-6 .card .name { font-size: 1.9rem; font-weight: bold; color: #2c3e50; margin-bottom: 10px; }
+  #slide-6 .card .body-part { font-size: 1.4rem; color: #7f8c8d; margin: 5px 0; }
+  #slide-6 .card .helps { font-size: 1.4rem; color: #e74c3c; font-weight: bold; margin-top: 10px; line-height: 1.4; }
+  #slide-6 .footer { font-size: 1.8rem; color: #6c3000; margin-top: 40px; }
 
-  /* Page 8: Thank you */
-  #slide-8 { background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); }
-  #slide-8 h1 { font-size: 6.5rem; color: #c0392b; margin-bottom: 30px; }
-  #slide-8 .q { font-size: 2.8rem; color: #6c3000; margin-top: 30px; }
+  /* Page 7: Thank you */
+  #slide-7 { background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); }
+  #slide-7 h1 { font-size: 6.5rem; color: #c0392b; margin-bottom: 30px; }
 
   /* Navigation */
   .nav {
@@ -185,31 +180,25 @@
 
 <div class="hint">← → 키로 슬라이드 이동</div>
 
-<!-- Page 1: Title -->
+<!-- Page 1: Title (인사 + 도입) -->
 <section class="slide active" id="slide-1">
-  <div class="slide-num">1 / 8</div>
+  <div class="slide-num">1 / 7</div>
   <h1>How Do Animals'<br>Bodies Help Them?</h1>
   <div class="emojis">🐘🦘🦒</div>
   <div class="sub">Show and Tell</div>
 </section>
 
-<!-- Page 2: Hello -->
+<!-- Page 2: Elephant (paper craft) -->
 <section class="slide" id="slide-2">
-  <div class="slide-num">2 / 8</div>
-  <h1>Hello, everyone! 👋</h1>
-</section>
-
-<!-- Page 3: Elephant (paper craft) -->
-<section class="slide" id="slide-3">
-  <div class="slide-num">3 / 8</div>
+  <div class="slide-num">2 / 7</div>
   <img class="photo" src="images/elephant_paper.jpg" alt="My paper elephant">
   <div class="label">my elephant</div>
   <h1><span class="highlight">Long trunk</span></h1>
 </section>
 
-<!-- Page 4: Elephant (real - splash water + eat food) -->
-<section class="slide" id="slide-4">
-  <div class="slide-num">4 / 8</div>
+<!-- Page 3: Elephant (real - splash water + eat food) -->
+<section class="slide" id="slide-3">
+  <div class="slide-num">3 / 7</div>
   <div class="two-photos">
     <div class="photo-wrap">
       <img class="photo" src="images/elephant.jpg" alt="Elephant splashing water with trunk">
@@ -224,9 +213,9 @@
   <div class="point"><span class="highlight">Long trunk</span> · <span class="highlight">Splash &amp; Eat!</span></div>
 </section>
 
-<!-- Page 5: Kangaroo (strong legs + hop fast) -->
-<section class="slide" id="slide-5">
-  <div class="slide-num">5 / 8</div>
+<!-- Page 4: Kangaroo (strong legs + hop fast) -->
+<section class="slide" id="slide-4">
+  <div class="slide-num">4 / 7</div>
   <div class="two-photos">
     <div class="photo-wrap">
       <img class="photo" src="images/kangaroo_legs.jpg" alt="Kangaroo with strong legs">
@@ -242,9 +231,9 @@
   <div class="fast-fast-fast">Hop fast, fast, fast!</div>
 </section>
 
-<!-- Page 6: Giraffe (toy + real on one slide) -->
-<section class="slide" id="slide-6">
-  <div class="slide-num">6 / 8</div>
+<!-- Page 5: Giraffe (toy + real on one slide) -->
+<section class="slide" id="slide-5">
+  <div class="slide-num">5 / 7</div>
   <div class="two-photos">
     <div class="photo-wrap">
       <img class="photo" src="images/giraffe_toy.png" alt="My giraffe toy">
@@ -259,9 +248,9 @@
   <div class="point"><span class="highlight">Long neck</span> · <span class="highlight">Tall trees</span> 🌳</div>
 </section>
 
-<!-- Page 7: Comparison -->
-<section class="slide" id="slide-7">
-  <div class="slide-num">7 / 8</div>
+<!-- Page 6: Comparison -->
+<section class="slide" id="slide-6">
+  <div class="slide-num">6 / 7</div>
   <h1>Different bodies, different helps!</h1>
   <div class="compare">
     <div class="card">
@@ -286,22 +275,22 @@
   <div class="footer">Every animal has a special body! ✨</div>
 </section>
 
-<!-- Page 8: Thank you -->
-<section class="slide" id="slide-8">
-  <div class="slide-num">8 / 8</div>
+<!-- Page 7: Thank you -->
+<section class="slide" id="slide-7">
+  <div class="slide-num">7 / 7</div>
   <h1>Thank you! 🎉</h1>
 </section>
 
 <!-- Navigation -->
 <div class="nav">
   <button onclick="prevSlide()">‹</button>
-  <span class="indicator" id="indicator">1 / 8</span>
+  <span class="indicator" id="indicator">1 / 7</span>
   <button onclick="nextSlide()">›</button>
 </div>
 
 <script>
   let currentSlide = 1;
-  const totalSlides = 8;
+  const totalSlides = 7;
 
   function showSlide(n) {
     document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
@@ -326,7 +315,7 @@
   document.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
     else if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
-    else if (e.key >= '1' && e.key <= '8') { currentSlide = parseInt(e.key); showSlide(currentSlide); }
+    else if (e.key >= '1' && e.key <= '7') { currentSlide = parseInt(e.key); showSlide(currentSlide); }
   });
 </script>
 
